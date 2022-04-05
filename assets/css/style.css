@@ -108,3 +108,24 @@ h1, h2{
 #center-about{
     margin: 0 auto;
 }
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-header, .right-about-header{
+    
+    width: 60%;
+    margin-bottom: 50px;
+    line-height: 20px;
+    clear: both;
+}
+.left-about-header{
+    float: right;
+}
+.right-about-header{
+    float: left;
+}
+.right-about-header h2, .right-about-header p{
+    text-align: right;
+}
